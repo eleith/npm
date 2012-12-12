@@ -636,6 +636,13 @@ character to indicate reverse sort.
 
 The shell to run for the `npm explore` command.
 
+### skip-installed
+
+* Default: true
+* Type: Boolean
+
+Whether to skip installation if a requested package already exists in the node_modules directory.
+
 ### strict-ssl
 
 * Default: true
